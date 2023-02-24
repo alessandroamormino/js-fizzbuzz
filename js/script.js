@@ -41,17 +41,17 @@ for(let i=0; i<100; i++){
         // V1: Scrivo contatore + 'FizzBuzz';
         console.log(i+1 + ' - FizzBuzz');
         // - Scrivo dentro ogni <div> elemento il valore del contatore secondo le logiche del gioco;
-        newDivEl.innerHTML = (i+1) + ' - FizzBuzz';
+        newDivEl.innerHTML = 'FizzBuzz';
     } else if ((i+1)%3==0){
         // V1: Scrivo contatore + 'Fizz';
         console.log(i+1 + ' - Fizz');
         // - Scrivo dentro ogni <div> elemento il valore del contatore secondo le logiche del gioco;
-        newDivEl.innerHTML = (i+1) + ' - Fizz';
+        newDivEl.innerHTML = 'Fizz';
     } else if ((i+1)%5==0){
         // V1: Scrivo contatore + 'Buzz';
         console.log(i+1 + ' - Buzz');
         // - Scrivo dentro ogni <div> elemento il valore del contatore secondo le logiche del gioco;
-        newDivEl.innerHTML = (i+1) + ' - Buzz';
+        newDivEl.innerHTML = 'Buzz';
     } else {
         // F1: Scrivo il contatore;
         console.log(i+1);

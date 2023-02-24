@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Reset */
+
+body{
+    background-color: #073B4D;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    color: #ffffff;
+    padding: 1em;
+}
+
+#container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
+    /* flex */
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex */
+
+    width: calc(100% / 10 - (1em / 10 * 9));
+    aspect-ratio: 1 / 1; /* Cool! */
+
+    background-color: #1389B2;
+}
