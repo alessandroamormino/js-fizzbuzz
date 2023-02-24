@@ -5,6 +5,24 @@
 }
 /* Reset */
 
+/* Assets */
+.fizz{
+    background-color: #0DD6A0;
+}
+
+.buzz{
+    background-color: #FFD266;
+}
+
+.fizzbuzz{
+    background-color: #F0466F;
+}
+
+.number{
+    background-color: #1289B1;
+}
+/* /Assets */
+
 body{
     background-color: #073B4D;
     font-family: sans-serif;
@@ -37,5 +55,5 @@ h1{
     width: calc(100% / 10 - (1em / 10 * 9));
     aspect-ratio: 1 / 1; /* Cool! */
 
-    background-color: #1389B2;
+    border-radius: 5px;
 }
